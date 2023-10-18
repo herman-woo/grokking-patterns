@@ -11,7 +11,7 @@ jsonData.words.forEach(word => {
 
 )
 
-function isPalindrome(word){
+export function isPalindrome(word){
     let left = 0;
     let right = word.length - 1
     while (left < right){
